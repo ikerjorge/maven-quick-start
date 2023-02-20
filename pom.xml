@@ -5,6 +5,11 @@
 		http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>clinic.programmming</groupId>
-  <artifactId>maven-quick-start</artifactId>
+  <artifactId>example</artifactId>
   <version>1.0</version>
+  <properties>
+	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	<maven.compiler.target>11</maven.compiler.target>
+	<maven.compiler.source>11</maven.compiler.source>
+  </properties>
 </project>
